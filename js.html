@@ -1,0 +1,48 @@
+<script> 
+console.log("hola mundo");
+</script>var miSustantivo = "bicicleta";
+var miAdjetivo = "pequeña";
+var miVerbo ="voló";
+var miAdverbio ="lentamente";
+
+var palabrasEnBlanco = "La " +miSustantivo + " " + miAdjetivo + " " + miVerbo + " " + miAdverbio + " a la tienda"
+
+console.log (palabrasEnBlanco);
+
+var estaciones = ["Inviero, Otoño, Primavera"];
+estaciones.unshift("Verano");
+console.log(estaciones);
+
+var estacion = ["Invierno, Verano, Otoño, Primavera"];
+estacion.push("Julieta");
+console.log(estacion);
+
+var estaciones = ["Invierno", "Otoño", "Primavera", "Verano"];
+estaciones.shift();
+console.log(estaciones);
+
+function mostrarMensaje() {
+  console.log("¡Hola, Mundoo!");
+}
+mostrarMensaje ();
+
+function sumar(a, b) {
+  var suma = a + b;
+  console.log("el resultado de " + a + " + " + b +  " es: " + suma);
+}
+sumar(5, 3);
+sumar(7,3);
+sumar(10, 9);
+sumar(32, 8);
+
+function clasificarValor(valor) {
+  if (valor < 5) {
+    console.log ("menor que 5.");
+  } else if (valor < 10) {
+    console.log("Menor que 10.");
+  } else {
+    console.log ("igual o mayor que 10.");
+  }
+}
+
+clasificarValor(7);
